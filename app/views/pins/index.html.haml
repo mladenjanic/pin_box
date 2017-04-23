@@ -1,6 +1,8 @@
 %h1 All Pins
 
 = link_to 'New Pin', new_pin_path
+= link_to 'Sign Out',  destroy_user_session_path, method: :delete
+= link_to 'Log In', user_session_path
  
 - @pins.each do |pin|
  %h2= link_to pin.title, pin
