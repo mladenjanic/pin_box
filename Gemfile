@@ -27,6 +27,7 @@ gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'image_processing', '~> 0.4.1'
 gem 'mini_magick', '~> 4.7'
 gem 'shrine', '~> 2.6', '>= 2.6.1'
+gem 'masonry-rails', '~> 0.2.4'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
