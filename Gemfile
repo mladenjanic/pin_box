@@ -28,6 +28,7 @@ gem 'image_processing', '~> 0.4.1'
 gem 'mini_magick', '~> 4.7'
 gem 'shrine', '~> 2.6', '>= 2.6.1'
 gem 'masonry-rails', '~> 0.2.4'
+gem 'acts_as_votable', '~> 0.10.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
